@@ -41,6 +41,9 @@ if p=="start" or store=="start":
                     print("YIKES!!you won!!!")
                     print("THANKS FOR PLAYING THE GAME!!HOPE YOU ENJOYED IT!!") 
                     break 
+              if flag==len(set(term)) or chance==len(term)+2:
+                print("THANKS FOR PLAYING THE GAME!!HOPE YOU ENJOYED IT!!") 
+                break
          
 elif p=="rules" or store=="rules":
     print("SO THE HANGMAN GAME IS A REALLY SIMPLE GAME\nHere, a random word is picked up from our collection and the player gets limited chances to win the game.")
